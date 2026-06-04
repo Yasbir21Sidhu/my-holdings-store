@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: myholdingsstore-holdings     # Important: store-id + - + app-name
+id: myholdingsstore17521     # Important: store-id + - + app-name
 name: Holdings
 tagline: Personal Bitcoin Strategy Dashboard
 icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps/master/bitcoin/icon.svg
