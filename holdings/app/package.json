@@ -1,0 +1,14 @@
+{
+  "name": "holdings",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "bitcoinjs-lib": "^6.1.7",
+    "bip32": "^4.0.0",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5"
+  }
+}
