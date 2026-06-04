@@ -11,7 +11,6 @@ services:
     ports:
       - "3005:3000"
     environment:
-      - NODE_ENV=production
       - BITCOIN_RPC_HOST=bitcoin
       - BITCOIN_RPC_PORT=8332
       - BITCOIN_RPC_USER=${APP_BITCOIN_RPC_USER}
