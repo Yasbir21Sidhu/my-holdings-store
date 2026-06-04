@@ -1,0 +1,20 @@
+manifestVersion: 1
+id: holdings
+name: Holdings
+tagline: Personal Bitcoin Strategy Dashboard
+icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps/master/bitcoin/icon.svg
+category: finance
+version: "1.0.0"
+developers: ["You"]
+website: https://github.com/getumbrel/umbrel-community-app-store
+submitter: Community
+submission: https://github.com/getumbrel/umbrel-community-app-store
+description: >
+  A beautiful personal Bitcoin holdings dashboard inspired by Michael Saylor's Strategy.
+  Paste your xpub to see total holdings, unrealized P&L, price chart with acquisition dots, and detailed UTXO table.
+dependencies:
+  - bitcoin
+port: 3005
+gallery:
+  - https://picsum.photos/id/1015/1200/630
+releaseNotes: First version - xpub based Strategy dashboard
