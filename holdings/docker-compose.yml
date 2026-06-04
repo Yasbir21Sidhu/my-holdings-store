@@ -1,0 +1,24 @@
+version: "3.7"
+
+services:
+  holdings:
+    image: node:20-alpine
+    container_name: holdings
+    restart: unless-stopped
+    working_dir: /app
+    volumes:
+      - ./app:/app
+    ports:
+      - "3005:3000"
+    environment:
+      - NODE_ENV=production
+      - BITCOIN_RPC_HOST=bitcoin
+      - BITCOIN_RPC_PORT=8332
+      - BITCOIN_RPC_USER=${BITCOIN_RPC_USER}
+      - BITCOIN_RPC_PASS=${BITCOIN_RPC_PASS}
+    networks:
+      - umbrel_main_network
+
+networks:
+  umbrel_main_network:
+    external: true
