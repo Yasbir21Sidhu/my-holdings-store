@@ -14,8 +14,8 @@ services:
       - NODE_ENV=production
       - BITCOIN_RPC_HOST=bitcoin
       - BITCOIN_RPC_PORT=8332
-      - BITCOIN_RPC_USER=${BITCOIN_RPC_USER}
-      - BITCOIN_RPC_PASS=${BITCOIN_RPC_PASS}
+      - BITCOIN_RPC_USER=${APP_BITCOIN_RPC_USER}
+      - BITCOIN_RPC_PASS=${APP_BITCOIN_RPC_PASS}
     networks:
       - umbrel_main_network
 
